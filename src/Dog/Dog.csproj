@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageId>Dog</PackageId>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Description>Dog API client</Description>
+        <PackageTags>dogapi;api;wrapper</PackageTags>
+        <Authors>XXIV</Authors>
+        <PackageProjectUrl>https://github.com/thechampagne/dogapi-dotnet</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/thechampagne/dogapi-dotnet.git</RepositoryUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <Copyright>Copyright (c) XXIV 2022</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	  <None Include="../../LICENSE" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
